@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# ComfyUI 运行产物（插件目录内一般不会产生，保险起见）
+*.mp4
+*.mp4.part
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# 模型文件（体积大，不应进仓库）
+models/
+*.safetensors
+*.ckpt
+*.pth
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
